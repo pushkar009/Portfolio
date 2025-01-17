@@ -1,0 +1,117 @@
+@font-face {
+    font-family: boldy;
+    src: url("COPRGTB.TTF");
+}
+@font-face {
+    font-family: lighty;
+    src: url("COPRGTL.TTF");
+}
+
+.bg-imag {
+    background-image: linear-gradient(to bottom right, 
+                    dodgerblue 45%, powderblue);
+    background-attachment: fixed; /* Keeps the background fixed */
+    background-size: cover; /* Ensures the gradient covers the full area */
+    background-position: center; /* Centers the gradient */
+    height: 100vh; /* Ensures it fills the full viewport height */
+    overflow-y: auto; /* Allows content to scroll */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container {
+    margin: 100px;
+}
+
+.reveal {
+    transition: 2s all ease;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #555;
+}
+
+.nav-link:focus {
+    color: black;
+    background-color: white;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "boldy";
+    color: rgb(10, 10, 10);
+}
+
+.bio {
+    font-family: "lighty";
+    font-size: 18px;
+    color: rgb(84, 84, 84);
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-links a {
+    color: #555;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.fa-twitter:hover {
+    color: #007bff;
+}
+
+.fa-github:hover {
+    color: #f0f8ff;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.back {
+    background-color: transparent;
+    width: fit-content;
+    border: none;
+}
+
+footer {
+    display: flex;
+    padding-left: 10px;
+    height: 4em;
+    background-color: #777;
+    align-items: center
+}

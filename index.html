@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile | Pushkar Magdum</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <!--
+    <link rel="stylesheet" href="../../PROJECTS/Profile/all.css">
+    <link rel="stylesheet" href="../../PROJECTS/bootstrap-5.3.0/css/bootstrap.min.css">
+    <script src="../../PROJECTS/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <div class="container-fluid bg-imag">
+      <section id="home">
+        <div class="contain reveal">
+          <div class="card back">
+            <div class="card-body" style="justify-items: center;">
+              <img src="profile-picture.jpg" class="card-img profile-picture" alt="Pushkar Magdum">
+              <h1 class="card-title name">Pushkar Magdum</h1>
+              <p class="card-text bio">Web Development Intern</p>
+              <p><b>Connect me on:</b></p>
+              <ul class="social-links">
+                <li><a href="https://twitter.com/Pushkar41683073"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/pushkar-magdum-34a7b1246/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/pushkar009"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <div class="container" id="about" style="padding: 20px; padding-top: 50px;">
+        <h2 class="display-4">About</h2>
+        <p>
+          Highly motivated web development intern seeking a challenging opportunity
+          to apply my academic knowledge and technical skills. Eager to contribute
+          to a dynamic team and gain hands-on experience in building innovative web applications.
+        </p>
+      </div>
+  
+      <!-- Skills Section -->
+      <div class="container-sm" id="skills" style="padding: 20px; padding-top: 50px;">
+          <h2 class="display-4">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+          <h2 class="display-4">Soft Skills</h2>
+          <ul>
+            <li>Leadership</li>
+            <li>Develop positive workspace relationships</li>
+            <li>Skilled in quick & effective decision making</li>
+            <li>Persuasive communication skill</li>
+          </ul>
+      </div>
+
+      <!--Projects Section-->
+      <div class="container-sm" id="projects" style="padding: 20px;">
+        <h2 class="display-4">Projects</h2>
+        <h2><small>Webpage for college department</small></h1>
+        <p>Created a web based platform using bootstrap for the
+          frontend and flask for the backend, allowing department
+          staff to post college level event updates and news.</p>
+        <a href="https://github.com/pushkar009/miniproject"
+          class="text-decoration-none" style="color: black;">
+          <i class="fas fa-link" style="color: black;"></i> View Project
+        </a>
+      </div>
+  
+      <!-- Contact Section -->
+      <div class="container-sm" id="contact" style="padding: 20px;">
+        <h2 class="display-4">Contact Me</h2>
+        <b> Contact:</b> magdumpushkar@gmail.com<br>
+        <form action="/.php">
+          <div class="mb-3 mt-3">
+            <label for="name"><b>Name: <span class="text-danger">*</span></b></label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your Name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email"><b>Email: <span class="text-danger">*</span></b></label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email" name="email" required>
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="message"><b>Message: <span class="text-danger">*</span></b></label>
+            <textarea class="form-control" rows="5" id="message" placeholder="Enter your message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+      <footer>
+        <strong>
+          Copyright © 2025 | All rights reserved
+        </strong>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
