@@ -6,3 +6,14 @@ window.addEventListener("blur", () =>{
 window.addEventListener("focus", () => {
     document.title = docTitle;
 });
+
+function clearForm() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+}
+  
+function submitForm() {
+    clearForm();
+    alert("Thank you for your response!");
+}
