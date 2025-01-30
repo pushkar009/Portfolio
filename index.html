@@ -102,8 +102,9 @@
       <div class="container-sm" id="contact" style="padding: 20px;">
         <h2 class="display-4">Contact Me</h2>
         <b> Contact:</b> magdumpushkar@gmail.com<br>
-        <form action="/.php">
+        <form action="https://api.web3forms.com/submit" method="POST">
           <div class="mb-3 mt-3">
+            <input type="hidden" name="access_key" value="03106a7e-154e-474c-9313-98116a0414b0">
             <label for="name"><b>Name: <span class="text-danger">*</span></b></label>
             <input type="text" class="form-control" id="name" placeholder="Enter your Name" name="name" required>
           </div>
@@ -117,7 +118,7 @@
           </div>
           <button type="submit" class="btn btn-primary" onclick="submitForm()">Submit</button>
         </form>
-    </div>
+      </div>
 
       <footer>
         <strong>
